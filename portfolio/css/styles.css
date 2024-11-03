@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+header {
+    background-color: #333333; /* Dark background color */
+    padding: 10px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header a {
+    color: #ffffff; /* White font color for better contrast */
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+header a:hover {
+    color: #ffd700; /* Gold color on hover for visibility */
+}
+
+/* About Section */
+#about {
+    background-color: #f4f4f9;
+}
+
+#about img {
+    border-radius: 50%;
+}
+
+#about h2 {
+    color: #333;
+}
+
+/* Highlights Section */
+#highlights {
+    background-color: #ffffff;
+    padding: 3rem 0;
+}
+
+.highlight-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f4f4f9;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #ffffff;
+    padding: 3rem 0;
+}
+
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f9;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Add this to your existing CSS */
+.highlight-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 350px; /* Set a fixed height for all cards */
+}
+
+.highlight-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; /* Ensure content is spaced evenly */
+}
+
+/* Highlights Section */
+#highlights {
+    background-image: url('images/background-about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: creates a parallax effect */
+    position: relative;
+    padding: 4rem 0;
+    color: #ffffff;
+}
+
+
+
+
